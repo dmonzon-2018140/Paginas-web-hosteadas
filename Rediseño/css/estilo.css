@@ -1,0 +1,178 @@
+@font-face {
+    font-display: block;
+    font-family: 'Times New Roman', Times, serif;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/cgaIrkaP9Empe8_PwXbajFtXRa8TVwTICgirnJhmVJw.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/cgaIrkaP9Empe8_PwXbajD8E0i7KZn-EPnyo3HZu7kw.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/cgaIrkaP9Empe8_PwXbajKCWcynf_cDxXwCLxiixG1c.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/oswald-medium-Svg.svg") format("svg");
+}
+@font-face {
+    font-display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/dI-qzxlKVQA6TUC5RKSb31tXRa8TVwTICgirnJhmVJw.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/dI-qzxlKVQA6TUC5RKSb3z8E0i7KZn-EPnyo3HZu7kw.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/dI-qzxlKVQA6TUC5RKSb36CWcynf_cDxXwCLxiixG1c.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald-medium/v16/oswald-medium-700-Svg.svg") format("svg");
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 500;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 500;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 500;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 500;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 500;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2") format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 800;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752FD8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 800;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752HT8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 800;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752Fj8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 800;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752Fz8Gl-1PK62t.woff2") format('woff2');
+unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+font-display: block;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 800;
+src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Oswald/v29/TK3iWkUHHAIjg752GT8Gl-1PKw.woff2") format('woff2');
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-display: block;
+    font-family: 'Courier New', Courier, monospace;
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+}
+@font-face {
+    font-family: 'Courier New', Courier, monospace;
+    src: url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/fonts/Avenir_Family_Pack/v1/AvenirLTW05-35Light.woff") format("woff");
+}
+@font-face{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1VQ.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1Uw.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-NYi1UA.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/rubik-medium-Svg.svg") format("svg");
+}
+@font-face{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: unset;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0U1.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uz.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tvE0Uw.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/rubik-medium-italic-Svg.svg") format("svg");
+}
+@font-face{
+    font-family:"'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;Medium";
+    font-weight: 900;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1VQ.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1Uw.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-1UA.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/rubik-medium-700-Svg.svg") format("svg");
+}
+@font-face{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-weight: 900;
+    font-style: italic;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEU1.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUz.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8u6FEUw.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-medium/v14/rubik-medium-italic-Svg.svg") format("svg");
+}
+@font-face{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1VQ.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1Uw.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-WYi1UA.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/rubik-light-Svg.svg") format("svg");
+}
+@font-face{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-style: italic;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0U1.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uz.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8sDE0Uw.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/rubik-light-italic-Svg.svg") format("svg");
+}
+@font-face{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-weight: 800;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1VQ.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1Uw.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4i1UA.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/rubik-light-700-Svg.svg") format("svg");
+}
+@font-face{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    font-weight: 800;
+    font-style: italic;
+    src: url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0U1.woff2") format("woff2"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE3U3f4Q.woff") format("woff"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/iJWbBXyIfDnIV7nEt3KSJbVDV49rz8tdE0Uw.ttf") format("truetype"),
+    url("//static.parastorage.com/services/santa-resources/dist/viewer/user-site-fonts/fonts/Rubik-light/v14/rubik-light-italic-Svg.svg") format("svg");
+}
+@font-face {
+    font-display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/cf053eae-ba1f-44f3-940c-a34b68ccbbdf.eot?#iefix");
+    src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/cf053eae-ba1f-44f3-940c-a34b68ccbbdf.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/8bf38806-3423-4080-b38f-d08542f7e4ac.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/e2b9cbeb-fa8e-41cd-8a6a-46044b29ba52.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/c2a69697-4f06-4764-abd4-625031a84e31.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/dc423cc1-bf86-415c-bc7d-ad7dde416a34.svg#dc423cc1-bf86-415c-bc7d-ad7dde416a34") format("svg");
+}

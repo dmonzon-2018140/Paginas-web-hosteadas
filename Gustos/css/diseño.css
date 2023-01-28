@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Sitka Small Semibold;
+	margin: 0;
+}
+
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+h4{ font-size: 1.5em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.2em;}
+
+.container{
+	padding: 60px 0;
+	width: 80%;
+	max-width: 1400px;
+	margin: auto;
+	overflow: hidden;
+}
+
+.color-acento{ color: #1c67c9;}
+
+header{
+	background-color: #e6e9ed;
+}
+
+header .name{
+	margin: 0;
+	padding: 25px 30px;
+	font-weight: bold;
+	color: #218abf;
+	font-size: 1.4em;
+}
+
+header .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+header li {
+	float: left;
+}
+
+header a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+header a:hover:not(.active) {
+	background-color: #111;
+}
+  
+.active {
+	background-color:#04AA6D;
+}
+
+#home{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	height: 60vh;
+	background: rgba(76, 175, 80, 0.6);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+#home h1{
+	color: black;
+}
+
+#home p{
+	display: none;
+	color: white;
+}
+
+#usuales .container{
+	text-align: center;
+	padding: 100px 12px;
+}
+
+#usuales .container-2{
+	text-align: center;
+	padding: 100px 12px;
+}
+
+#usuales .container-3{
+	text-align: center;
+	padding: 100px 12px;
+}
+
+#regulares .llamadas{
+	background: #791caf;
+	padding-bottom: 30px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#regulares .video{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#regulares .medio{
+	width: 28%;
+	text-align: center;
+}
+
+.medio:img{
+	width: 90%;
+}
+
+.medio:h3{
+	margin: 10px 0;
+}
+
+.medio p{
+	font-weight: 300;
+	text-align: justify;
+}
+
+#demas .nota{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.nota .charco{
+	background: #1c4258;
+	display: flex;
+	width: 46%;
+	height: 200px;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+}
+
+.nota .charco:img{
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: block;
+}
+
+.nota .charco .parte{
+	width: 60%;
+	color: #bd7c51;
+}
+
+.nota .charco .parte:p{
+	font-weight: 300;
+	padding-top: 5px;
+}
+
+@media (min-width: 720px){
+	header{
+		position: fixed;
+		width: 100%;
+	}
+	
+	header .container{
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	header ul{
+		flex-direction: row;
+		padding-bottom: 0;
+		padding-right: 20px;
+	}
+	
+	#home h1{
+		font-size: 5em;
+	}
+	
+	#home p{
+	    display: block;
+		margin-bottom: 20px;
+    }
+	
+	#usuales .container{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+	#usuales .texto{
+		width: 50%;
+		max-width: 600px;
+		text-align: initial;
+		padding-left: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	#usuales h2{
+		margin-top: 0px;
+	}
+	
+	#usuales img{
+		background-size: cover;
+		background-position: left;
+		height: 500px;
+		width: 500px;
+	}
+	
+	#usuales .container-2{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+	#usuales .texto(2){
+		background-repeat: no-repeat;
+		background-size: 300px 200px;
+		background-position: calc(100vw - 300px) 120px;
+		padding-top: 2cm;
+	}
+	
+	#usuales .img-container-2{
+		background-image: url("img/alemania.jpg");
+		background-size: cover;
+		background-position: right;
+		height: 500px;
+		width: 600px;
+	}
+	
+	#usuales .container-3{
+		display: flex;
+		justify-content: space-evenly;
+	}
+	
+	#usuales .texto(3){
+		width: 40%;
+		max-width: 300px;
+		text-align: initial;
+		padding-right: 30px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 2cm;
+	}
+	
+	#usuales .img-container-3{
+		background-image: url("img/baloncesto.jpg");
+		background-size: cover;
+		background-position: right;
+		height: 500px;
+		width: 400px;
+	}
+
+    #regulares .llamadas{
+	    background: #791caf;
+	    padding-bottom: 30px;
+		display: flex;
+	    justify-content: space-evenly;
+    }
+
+    #regulares .video{
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+    }
+
+    #regulares .medio{
+	    width: 28%;
+	    text-align: center;
+    }
+
+    .medio:img{
+	    width: 90%;
+    }
+
+    .medio:h3{
+	    margin: 10px 0;
+    }
+
+    .me.medio{
+	    font-weight: 300;
+	    text-align: justify;
+    }
+
+    #demas .nota{
+	    display: flex;
+	    justify-content: space-evenly;
+    }
+
+    .nota .charco{
+	    background: #b1b085;
+	    display: flex;
+	    width: 90%;
+	    height: 200px;
+	    align-items: center;
+	    justify-content: space-evenly;
+	    border-radius: 5px;
+	    box-shadow: 0 0 6px 0 rgba(0,0,0,0.6);
+    }
+
+    .nota .charco:img{
+	    width: 100px;
+	    height: 100px;
+	    object-fit: cover;
+	    border: 3px solid #fff;
+	    border-radius: 50%;
+	    display: block;
+    }
+
+    .nota .charco .parte{
+	    width: 60%;
+	    color: #4a3b31;
+    }
+
+    .nota .charco .parte:p{
+	    font-weight: 300;
+	    padding-top: 5px;
+    }
+}
